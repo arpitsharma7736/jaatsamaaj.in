@@ -1,0 +1,97 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the body at least 100% of the viewport height */
+    color: goldenrod;
+    
+}
+.nav1{
+    color: goldenrod;
+}
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    flex-grow: 1; /* Allow the hero section to grow and push the footer down */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: black;
+    color: goldenrod;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.con-head{
+    text-align: center;
+}
+.con-head:hover{
+    font-weight: bold;
+}
